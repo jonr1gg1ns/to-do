@@ -1,0 +1,42 @@
+ h1 {
+    margin: 0;
+}
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.header {
+    background-color: #A4C3B2;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: calc(100vh - 48px);
+}
+.sideBar {
+    background-color: #F7F5F2;
+    height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    gap: 25px;
+    color: black;
+    font-size: 24px;
+}
+
+.home {
+    padding-left: 40px;
+}
+
+#id {
+    padding-top: 22px;
+}
+
+
+
